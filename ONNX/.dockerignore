@@ -1,0 +1,18 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore old test scripts or local models
+mediapipe.py
+mediapipe/
+models/
+
+# Ignore Git
+.git/

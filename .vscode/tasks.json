@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build oa-app",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"/mnt/mydisk/Coding/Projects/oa-attendance/oa-app/oa-app.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the oa-app SQL project"
+		}
+	]
+}
